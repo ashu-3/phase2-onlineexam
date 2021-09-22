@@ -1,0 +1,19 @@
+<h2 class="center">online-exam Form!</h2>
+
+<p class="sub-header">Please answer the folowing.. You need to get minimum 7 to pass..!!</p>
+
+<hr/>
+<form #ref="ngForm" (ngSubmit)="checkValues(ref)">
+    <div *ngFor="let q of question;let i = index">
+        <p id="question_ptag"><b>question{{i+1}}:</b> {{q.question1}}</p>
+        <input type="radio"  name="radio{{i+1}}" value={{q.ans1}} ngModel>{{q.ans1}}
+        <input type="radio"  name="radio{{i+1}}" value={{q.ans2}} ngModel>{{q.ans2}}
+        <input type="radio"  name="radio{{i+1}}" value={{q.ans3}} ngModel>{{q.ans3}}
+        <input type="radio"  name="radio{{i+1}}" value={{q.ans4}} ngModel>{{q.ans4}}
+        <hr/>
+    </div> 
+    <input type="submit" value="submit"  class="submit" id="submit" id="submit-button"/>
+    <p>{{totalAnswer}}</p>
+    
+    <p>{{total}}</p>
+</form>

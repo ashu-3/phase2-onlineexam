@@ -1,0 +1,82 @@
+[
+    {
+      "question1": "result of 10+10 is",
+      "ans1": 10,
+      "ans2": 20,
+      "ans3":30,
+      "ans4":40 ,
+      "correctans":20     
+    },
+    {
+      "question1": "result of 50+50 is",
+      "ans1": 10,
+      "ans2": 20,
+      "ans3":30,
+      "ans4":100 ,
+      "correctans":100     
+    },
+    {
+      "question1": "what is Angular",
+      "ans1": "Framework",
+      "ans2": "Library",
+      "ans3":"Backend Language",
+      "ans4":"Database" ,
+      "correctans": "Framework"     
+    },
+    {
+      "question1": "what is React",
+      "ans1": "Framework",
+      "ans2": "Library",
+      "ans3":"Backend Language",
+      "ans4":"Database" ,
+      "correctans": "Library"     
+    },
+    {
+      "question1": "what is MangoDb",
+      "ans1": "Framework",
+      "ans2": "Library",
+      "ans3":"Backend Language",
+      "ans4":"Database" ,
+      "correctans": "Database"     
+    },
+    {
+      "question1": "what is NodeJS",
+      "ans1": "Framework",
+      "ans2": "Library",
+      "ans3":"Backend Language",
+      "ans4":"Database" ,
+      "correctans": "Backend Language"     
+    },
+    {
+      "question1": "what is CSS",
+      "ans1": "Framework",
+      "ans2": "Library",
+      "ans3":"Styling",
+      "ans4":"Database" ,
+      "correctans": "Styling"     
+    },
+    {
+      "question1": "where is Bengaluru",
+      "ans1": "USA",
+      "ans2": "India",
+      "ans3":"France",
+      "ans4":"UK" ,
+      "correctans": "India"     
+    },
+    {
+      "question1": "which is Indian origin Company",
+      "ans1": "Oracle",
+      "ans2": "Broadcom",
+      "ans3":"Infosys",
+      "ans4":"C#" ,
+      "correctans": "Infosys"     
+    },
+    {
+      "question1": "result of 10*2 is",
+      "ans1": 20,
+      "ans2": 30,
+      "ans3":40,
+      "ans4":1,
+      "correctans": 20     
+    }
+  ]
